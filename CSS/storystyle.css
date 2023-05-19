@@ -1,0 +1,23 @@
+.container{
+    background-image: url(https://previews.123rf.com/images/goodwinx/goodwinx1611/goodwinx161100066/67495184-fairytale-christmas-background-many-snowflakes-frame-light-blue-rectangle.jpg);
+    background-color:rgb(215, 223, 226);
+    background-repeat:no-repeat ;
+    background-size:50%;
+    background-position: right center;
+    color: purple;
+    line-height:1.6em;
+    margin:auto;
+    padding:20px;
+    border-bottom:5px black solid;
+    border-top:5px black solid;
+    border-left:5px black solid;
+    border-right:5px black solid;
+    margin: bottom 20px;
+}
+ /* .image1 {
+     background: size 40%;
+     background-origin:border-box;
+     background-position:right top;
+    background-repeat:no-repeat;
+
+} */

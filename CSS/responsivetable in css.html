@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        table,
+        td,
+        th {
+          border: 1px solid black;
+        }
+        table {
+          border-collapse: collapse;
+          width: 900px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        th {
+          padding: 15px;
+        }
+        td {
+          padding: 10px;
+        }
+        thead tr:nth-child(n) {
+          color: rgb(148, 146, 131);
+          background-color: teal;
+        }
+        tbody tr:nth-child(even){
+          color: aliceblue;
+          background-color: rgb(168, 79, 97);
+        }
+        tbody tr:nth-child(odd){
+          color: aliceblue;
+          background-color: rgb(118, 10, 139);
+        }
+        .responsive{
+          width: 200px;
+          height: 300px;
+          margin: 0 auto;
+          overflow: auto;
+          
+        }
+      </style>
+</head>
+<body>
+    <div class="responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Job Title</th>
+              <th>Mobile</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>James</td>
+              <td>matman</td>
+              <td>chef</td>
+              <td>1234567890</td>
+            </tr>
+            <tr>
+              <td>Mike</td>
+              <td>Tyson</td>
+              <td>game tester</td>
+              <td>9999999999</td>
+            </tr>
+            <tr>
+              <td>George</td>
+              <td>walter</td>
+              <td>software engineer</td>
+              <td>1234588888</td>
+            </tr>
+            <tr>
+              <td>Veronica</td>
+              <td>warner</td>
+              <td>receptionist</td>
+              <td>9234567888</td>
+            </tr>
+            <tr>
+              <td>Barbie</td>
+              <td>Millicent</td>
+              <td>model</td>
+              <td>1234567000</td>
+            </tr>
+        </tbody>
+      </table>
+  </div>
+    </body>
+  </html>
